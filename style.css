@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    gap: 15px;
+}
+
+.nav_title {
+    font-size: 18px;
+    color: #3A3838;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.nav_title:hover {
+    color: #EF4423;
+}
+
+.nav_img img {
+    width: 100%;
+    height: 272px;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-bottom: 36px;
+}
+
+.news__grid {
+    display: flex;
+    align-items: stretch;
+
+}
+
+.news__card {
+    width: 25%;
+
+
+}
+
+
+.news__card img {
+    width: 100%;
+
+}
+
+.news__card h3 {
+    font-size: 19px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 8px 15px;
+
+}
+
+.news__card p {
+    font-size: 16px;
+    color: #EBEBEB;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-bottom: 8px;
+}
+
+.card-1 {
+    background-color: #B71C1C;
+}
+
+.card-2 {
+    background-color: #6A1B9A;
+}
+
+.card-3 {
+    background-color: #303F9F;
+}
+
+.card-4 {
+    background-color: #00695C;
+}
+
+.nawgshn_title {
+    text-align: center;
+    margin: 40px auto;
+    font-size: 22px;
+    font-weight: 700;
+    color: #3A3838;
+}
+
+.nawgshn {
+    background-color: #EDEDED;
+}
+
+.nawgshn_trxt {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+
+}
+.title{
+    font-size: 22px;
+    color: #3A3838;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.text{
+    font-size: 18px;
+    color: #686868;
+    font-weight: 400;
+    padding-bottom: 31px;
+}
+.footer{
+    background: #3A3838;
+}
+.footer_about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_logo{
+    padding: 29px 0px;
+}
+.footer_list{
+    display: flex;
+    gap: 15px;
+ 
+}
+.footer_title{
+       color: #FFFFFF;
+       font-size: 18px;
+       font-weight: 700;
+       transition: 0.3s;
+}
+.footer_title:hover{
+   color: #EF4423;
+}
